@@ -1,7 +1,12 @@
+/* color drop-downs */
+
 details{
+	
 }
 summary{
+	cursor: pointer;
 }
+
 details:nth-of-type(1){
 	background-color: black;
 	color: white;
