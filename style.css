@@ -1,10 +1,46 @@
-/* color drop-downs */
+/* mainmenu */
+.mainmenu{
+	background-color: #F6F6F6;
+	color: #1C1C1C;
+}
+/* desktop flex article */
+.flex-article{
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.left-column{
+	flex:1;
+	padding: 20px;
+}
+.right-column{
+	flex: 2;
+	padding: 20px;
+}
 
+/* desktop color drop-downs*/
 details{
 	
 }
 summary{
 	cursor: pointer;
+	position: relative;
+	padding-right: 2em;
+}
+/* not showing the triangle + */
+summary::-webkit-details-marker{
+	display: none;
+}
+/* open using + */
+summary::after{
+	content:"+";
+	font-size: 20px;
+	position: absolute;
+	right: 1em;
+}
+/* after open using - */
+details[open]summary::after{
+	content:"-";
 }
 
 details:nth-of-type(1){
@@ -47,3 +83,19 @@ details:nth-of-type(8){
 	color:black;
 	padding: 2em;
 }
+/* mobile color drop-downs*/
+@media (max-width:600px){
+	details{
+		max-width: 100%;
+		padding: 4px;
+		font-size: 20px;
+	}
+	summary{
+		font-size:20px;
+		padding:6px;
+	}
+	details p{
+		font-size: 18px;
+		padding: 5px;
+	}
+	}
