@@ -86,8 +86,8 @@ details:nth-of-type(8){
 /* mobile color drop-downs*/
 @media (max-width:600px){
 	details{
-		max-width: 100%;
-		padding: 4px;
+		max-width: 90%;
+		padding: 10px;
 		font-size: 20px;
 	}
 	summary{
@@ -97,5 +97,4 @@ details:nth-of-type(8){
 	details p{
 		font-size: 18px;
 		padding: 5px;
-	}
 	}
