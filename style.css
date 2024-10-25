@@ -173,7 +173,7 @@ details:nth-of-type(8){
 		font-size: 18px;
 		padding: 5px;
 	}
-} */ */
+} */
 
 /* circle animation styling */
 header {
@@ -187,13 +187,13 @@ header {
 }
 
 h1 {
-    position: absolute;
+
     text-align: center;
     font-size: 100px;
     font-family: 'impact';
     z-index: 1;
     color: black;
-} */
+}
 
 
 /* activate after fixing other elements */
