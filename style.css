@@ -121,11 +121,13 @@ summary{
 	cursor: pointer;
 	position: relative;
 	padding-right: 2em;
+	list-style: none;
 }
 /* not showing the triangle + */
 summary::-webkit-details-marker{
 	display: none;
 }
+
 /* open using + */
 summary::after{
 	content:"+";
