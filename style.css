@@ -105,12 +105,10 @@ header {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 h1 {
     position: absolute;
@@ -121,7 +119,9 @@ h1 {
     color: black;
 }
 
-.circle {
+
+/* activate after fixing other elements */
+/* .circle {
     position: absolute;
     width: 15px;
     height: 15px;
@@ -203,11 +203,11 @@ h1 {
 
 .circle:nth-child(13) {
 	top: 50%; left: 15%; animation-duration: 9.5s;
-}
+} */
 
 
 /* Keyframes for random movement */
-@keyframes moveRandom {
+/* @keyframes moveRandom {
     0% {
         transform: translate(0, 0);
     }
@@ -223,4 +223,4 @@ h1 {
     100% {
         transform: translate(0, 0);
     }
-}
+} */
