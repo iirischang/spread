@@ -97,11 +97,19 @@ body{
 }
 @media (min-width: 500px){
 	.content-grid {
-	  display: flex;
-	  flex-wrap: wrap;
-	  justify-content: space-between;
-	  width: calc((100% - 10px) / 2);
+	  display: grid;
+	  grid-template-columns: 1fr, 2fr;
+	  grid-template-areas:
+		  "title  aside";
 	}
+}
+
+h3 {
+	grid-area: title;
+}
+
+p {
+	grid-area: aside;
 }
 /* Print Media Query */
 @media print{
