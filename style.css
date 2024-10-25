@@ -197,7 +197,7 @@ h1 {
 
 
 /* activate after fixing other elements */
-/* .circle {
+.circle {
     position: absolute;
     width: 15px;
     height: 15px;
@@ -279,11 +279,11 @@ h1 {
 
 .circle:nth-child(13) {
 	top: 50%; left: 15%; animation-duration: 9.5s;
-} */
+}
 
 
 /* Keyframes for random movement */
-/* @keyframes moveRandom {
+@keyframes moveRandom {
     0% {
         transform: translate(0, 0);
     }
@@ -299,4 +299,4 @@ h1 {
     100% {
         transform: translate(0, 0);
     }
-} */
+}
