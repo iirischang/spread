@@ -100,7 +100,7 @@ details:nth-of-type(8){
 } */ */
 
 /* circle animation styling */
-header {
+/* header {
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -117,7 +117,7 @@ h1 {
     font-family: 'impact';
     z-index: 1;
     color: black;
-}
+} */
 
 
 /* activate after fixing other elements */
