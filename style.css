@@ -96,7 +96,7 @@ body{
 }
 }
 @media (min-width: 500px){
-	.flex-article {
+	.content-grid {
 	  display: flex;
 	  flex-wrap: wrap;
 	  justify-content: space-between;
