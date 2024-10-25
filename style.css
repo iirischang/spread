@@ -27,18 +27,18 @@ summary{
 	padding-right: 2em;
 }
 /* not showing the triangle + */
-summary::-webkit-details-marker{
+/* summary::-webkit-details-marker{
 	display: none;
-}
+} */
 /* open using + */
-summary::after{
+/* summary::after{
 	content:"+";
 	font-size: 20px;
 	position: absolute;
 	right: 1em;
-}
+} */
 /* after open using - */
-details[open]summary::after{
+/* details[open]summary::after{
 	content:"-";
 }
 
@@ -81,9 +81,9 @@ details:nth-of-type(8){
 	background-color: #C070FF;
 	color:black;
 	padding: 2em;
-}
+} */
 /* mobile color drop-downs*/
-@media (min-width:390px){
+/* @media (min-width:390px){
 	details{
 		max-width: 90%;
 		padding: 10px;
@@ -97,7 +97,7 @@ details:nth-of-type(8){
 		font-size: 18px;
 		padding: 5px;
 	}
-} */
+} */ */
 
 /* circle animation styling */
 header {
