@@ -1,22 +1,21 @@
-/* mainmenu */
-.mainmenu{
+/* .mainmenu{
 	background-color: #F6F6F6;
 	color: #1C1C1C;
-}
+} */
 /* desktop flex article */
 .flex-article{
 	display: flex;
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.left-column{
+/* .left-column{
 	flex:1;
 	padding: 20px;
-}
-.right-column{
+} */
+/* .right-column{
 	flex: 2;
 	padding: 20px;
-}
+} */
 
 /* desktop color drop-downs*/
 details{
@@ -84,7 +83,7 @@ details:nth-of-type(8){
 	padding: 2em;
 }
 /* mobile color drop-downs*/
-@media (max-width:600px){
+@media (min-width:390px){
 	details{
 		max-width: 90%;
 		padding: 10px;
@@ -98,4 +97,130 @@ details:nth-of-type(8){
 		font-size: 18px;
 		padding: 5px;
 	}
+}
+
+/* circle animation styling */
+header {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'impact';
+    z-index: 1;
+    color: black;
+}
+
+.circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 2;
+    animation: moveRandom 8s infinite ease-in-out alternate;
+}
+
+
+.yellow { 
+	background-color: yellow;
+}
+
+.orange { 
+	background-color: orange;
+}
+
+.red { 
+	background-color: red; 
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.purple {
+	background-color: purple;
+}
+
+
+.circle:nth-child(2) {
+	top: 10%; left: 20%; animation-duration: 6s;
+}
+
+.circle:nth-child(3) {
+	top: 50%; left: 70%; animation-duration: 7s;
+}
+
+.circle:nth-child(4) {
+	top: 30%; left: 10%; animation-duration: 8s;
+}
+
+.circle:nth-child(5) {
+	top: 70%; left: 40%; animation-duration: 6.5s;
+}
+
+.circle:nth-child(6) {
+	top: 20%; left: 80%; animation-duration: 5.5s;
+}
+
+.circle:nth-child(7) {
+	top: 60%; left: 15%; animation-duration: 9s;
+}
+
+
+.circle:nth-child(8) {
+	top: 15%; left: 50%; animation-duration: 7.5s;
+}
+
+.circle:nth-child(9) {
+	top: 80%; left: 30%; animation-duration: 6.2s;
+}
+
+.circle:nth-child(10) {
+	top: 25%; left: 60%; animation-duration: 7s;
+}
+
+.circle:nth-child(11) {
+	top: 40%; left: 90%; animation-duration: 8s;
+}
+
+.circle:nth-child(12) {
+	top: 85%; left: 50%; animation-duration: 5s;
+}
+
+.circle:nth-child(13) {
+	top: 50%; left: 15%; animation-duration: 9.5s;
+}
+
+
+/* Keyframes for random movement */
+@keyframes moveRandom {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(30px, 40px);
+    }
+    50% {
+        transform: translate(-50px, -30px);
+    }
+    75% {
+        transform: translate(40px, -50px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
 }
