@@ -1,17 +1,77 @@
 /* variable list */
 :root{
 	/* general styles */
-	--heading-font font-family: Forum;
+	--heading-font font-family: "Forum";
 	--main-background-width:100%;
 	--main-border:2px;
 	--main-padding:2px 8px 2px;
 	--main-margin:30px 32px;
 	--background:#F6F6F6;
 	--main-margin-bottom:100px;
+
+	/* H1 styles*/
+	--h1-font-family: "Forum";
+	--h1-font-size:100px;
+	--h1-font-weight:600;
+	--h1-line-height:100%;
+	--h1-text-align:center;
+
+	/* H2 styles*/
+	--h2-font-family:"Forum";
+	--h2-font-size:60px;
+	--h2-font-weight:600;
+	--h2-line-height:100%;
+	--h2-letter-spacing:2px;
+	--h2-text-align:center;
+
+	/* H3 styles */
+	--h3-font-family:"Forum";
+	--h3-font-size:40px;
+	--h3-font-weight:600;
+	--h3-line-height:100%;
+	--h3-letter-spacing:2px;
+
+	/* p styles*/
+	--p--font-family:"DM Sans";
+	--p-font-size:15px;
+	--p--font-weight:400;
+	--p-line-height:150%;
 }
 
 
+/* heading styles */
+h1{
+	font-family: var(--h1-font-family);
+	font-size: var(--h1-font-size);
+	font-weight:var(--h1-font-weight);
+	line-height:var(--h1-line-height);
+	text-transform:uppercase;
+	text-align: var(--h1-text-align);
+}
 
+h2{
+	font-family: var(--h2-font-family);
+	font-size: var(--h2-font-size);
+	font-weight: var(--h2-font-weight);
+	line-height: var(--h2-line-height);
+	letter-spacing: var(--h2-letter-spacing);
+	text-transform: uppercase;
+	text-align: var(--h2-text-align);
+}
+
+h3{
+	font-family: var(--h3-font-family);
+	font-size: var(--h3-font-size);
+	font-weight: var(--h3-font-weight);
+	line-height: var(--h3-line-height);
+}
+
+p{
+	font-family: var(--p--font-family);
+	font-size: var(--p-font-size);
+	font-weight: var(--p--font-weight);
+	line-height: var(--p-line-height);
+}
 
 
 /* .mainmenu{
