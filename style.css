@@ -334,3 +334,9 @@ header {
 	border-top:solid black 4px;
 	z-index: 4;
 }
+.parallax-b{
+	background-color: black;
+	position:sticky;
+	top:55%;
+	z-index:4;
+}
