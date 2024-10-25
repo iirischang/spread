@@ -3,11 +3,11 @@
 	color: #1C1C1C;
 } */
 /* desktop flex article */
-.flex-article{
+/* .flex-article{
 	display: flex;
 	max-width: 1200px;
 	margin: 0 auto;
-}
+} */
 /* .left-column{
 	flex:1;
 	padding: 20px;
@@ -18,7 +18,7 @@
 } */
 
 /* desktop color drop-downs*/
-details{
+/* details{
 	
 }
 summary{
@@ -97,7 +97,7 @@ details:nth-of-type(8){
 		font-size: 18px;
 		padding: 5px;
 	}
-}
+} */
 
 /* circle animation styling */
 header {
