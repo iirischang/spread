@@ -284,6 +284,21 @@ details:nth-of-type(8){
 	top: 50%; left: 15%; animation-duration: 9.5s;
 }
 
+.circle:nth-child(14) {
+	top: 35%; right: 45%; animation-duration: 9.5s;
+}
+
+.circle:nth-child(15) {
+	top: 40%; left: 55%; animation-duration: 9.5s;
+}
+
+.circle:nth-child(16) {
+	top: 80%; left: 15%; animation-duration: 9.5s;
+}
+
+.circle:nth-child(17) {
+	top: 20%; left: 35%; animation-duration: 9.5s;
+}
 
 /* Keyframes for random movement */
 @keyframes moveRandom {
