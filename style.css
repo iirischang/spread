@@ -18,7 +18,7 @@
 
 	/* H2 styles*/
 	--h2-font-family:"Forum";
-	--h2-font-size:60px;
+	--h2-font-size:40px;
 	--h2-font-weight:600;
 	--h2-line-height:100%;
 	--h2-letter-spacing:2px;
@@ -84,6 +84,7 @@ p{
 body{
 	margin: 5%;
 }
+
 
 /* Desktop Media Query */
 @media(min-width:1280px){
@@ -302,23 +303,34 @@ details:nth-of-type(8){
 }
 
 /* try parallax */
-.main {
+header {
+    height: 100vh;
+	overflow: hidden;
+    justify-content: center;
+    align-items: center;
 	background-color: white;
 	position: sticky;
-	top: 25%;
+	top: 1%;
+	z-index: 1;
 }
 .parallax {
 	background-color: #FFE500;
 	position: sticky;
 	top: 50%;
 	border-top: solid black 4px;
-	z-index: 1;
+	z-index: 2;
 }
-
 .parallax-2 {
 	background-color: white;
 	position: sticky;
 	top: 65%;
-	z-index: 2;
+	z-index: 3;
 	border-top: solid black 4px;
+}
+.parallax-3{
+	background-color: white;
+	position: sticky;
+	top: 80%;
+	border-top:solid black 4px;
+	z-index: 4;
 }
