@@ -302,3 +302,23 @@ details:nth-of-type(8){
 }
 
 /* try parallax */
+.main {
+	background-color: white;
+	position: sticky;
+	top: 25%;
+}
+.parallax {
+	background-color: #FFE500;
+	position: sticky;
+	top: 50%;
+	border-top: solid black 4px;
+	z-index: 1;
+}
+
+.parallax-2 {
+	background-color: white;
+	position: sticky;
+	top: 65%;
+	z-index: 2;
+	border-top: solid black 4px;
+}
