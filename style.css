@@ -316,21 +316,21 @@ header {
 .parallax {
 	background-color: #FFE500;
 	position: sticky;
-	top: 50%;
+	top: 35%;
 	border-top: solid black 4px;
 	z-index: 2;
 }
 .parallax-2 {
 	background-color: white;
 	position: sticky;
-	top: 65%;
+	top: 45%;
 	z-index: 3;
 	border-top: solid black 4px;
 }
 .parallax-3{
 	background-color: white;
 	position: sticky;
-	top: 80%;
+	top: 55%;
 	border-top:solid black 4px;
 	z-index: 4;
 }
