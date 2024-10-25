@@ -203,8 +203,8 @@ header {
 /* activate after fixing other elements */
 .circle {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     z-index: 2;
     animation: moveRandom 8s infinite ease-in-out alternate;
