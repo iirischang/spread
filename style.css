@@ -209,27 +209,27 @@ details:nth-of-type(8){
 }
 
 .yellow { 
-	background-color: yellow;
+	background-color: #FFE500;
 }
 
 .orange { 
-	background-color: orange;
+	background-color: #FFA500;
 }
 
 .red { 
-	background-color: red; 
+	background-color:#E12121; 
 }
 
 .green {
-	background-color: green;
+	background-color: #95E744;
 }
 
 .blue {
-	background-color: blue;
+	background-color: #469CFF;
 }
 
 .purple {
-	background-color: purple;
+	background-color: #C070FF;
 }
 
 .circle:nth-child(2) {
