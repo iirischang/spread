@@ -87,6 +87,15 @@ p{
 	--p-line-height:150%;
 }
 }
+@media (min-width: 500px){
+	.flex-article {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	  width: calc((100% - 10px) / 2);
+	}
+}
+
 /* .mainmenu{
 	background-color: #F6F6F6;
 	color: #1C1C1C;
