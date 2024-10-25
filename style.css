@@ -33,7 +33,7 @@
 
 	/* p styles*/
 	--p--font-family:"DM Sans";
-	--p-font-size:15px;
+	--p-font-size:18px;
 	--p--font-weight:400;
 	--p-line-height:150%;
 }
@@ -73,7 +73,20 @@ p{
 	line-height: var(--p-line-height);
 }
 
+/* sematic DOM */
+body{
+	margin: 5%;
+}
 
+/* Desktop Media Query */
+@media(min-width:1280px){
+:root{
+	--h1-font-size:150px;
+	--h3-font-size:60px;
+	--p-text-font-size:18px;
+	--p-line-height:150%;
+}
+}
 /* .mainmenu{
 	background-color: #F6F6F6;
 	color: #1C1C1C;
@@ -185,15 +198,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
-/* h1 {
-    position: absolute;
-    text-align: center;
-    font-size: 100px;
-    font-family: 'impact';
-    z-index: 1;
-    color: black;
-} */
 
 
 /* activate after fixing other elements */
