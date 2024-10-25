@@ -74,9 +74,9 @@ p{
 }
 
 /* sematic DOM */
-body{
+/* body{
 	margin: 5%;
-}
+} */
 
 /* Desktop Media Query */
 @media(min-width:1280px){
