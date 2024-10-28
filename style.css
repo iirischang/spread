@@ -378,8 +378,13 @@ header {
 	z-index: 3;
 	background-color: #FFE500
 }
+<<<<<<< HEAD
 .title3-para {
 	z-index: 2;
+=======
+.para1{
+	z-index: 7;
+>>>>>>> e95c079fd4be11db2a7db6131b46a57d69846a31
 }
 .title4-para {
 	z-index: 1;
