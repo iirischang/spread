@@ -340,49 +340,47 @@ header {
 	overflow: hidden;
     justify-content: center;
     align-items: center;
-	background-color: white;
 	position: sticky;
 	top: 1%;
-	z-index: 1;
+	/* z-index: 1; */
+	
 }
-.parallax {
+.title2 {
 	background-color: #FFE500;
 	position: sticky;
 	top: 35%;
 	border-top: solid black 4px;
-	z-index: 6;
+	z-index: 5;
 }
-.parallax-2 {
+.title3 {
 	background-color: white;
 	position: sticky;
 	top: 45%;
-	z-index: 7;
+	z-index: 6;
 	border-top: solid black 4px;
 }
-.parallax-3{
+.title4 {
 	background-color: white;
 	position: sticky;
 	top: 55%;
 	border-top:solid black 4px;
-	z-index: 8;
-}
-.content-grid{
-	z-index: 6;
-	background-color: #FFE500;
+	z-index: 7;
 }
 
-.title-1{
-	z-index: 5;
+.title1 {
+	position: sticky;
+	z-index: 4;
+	background-color: white;
 }
-.title-2{
-	z-index: 1;
+
+
+.title2-para {
+	z-index: 3;
+	background-color: #FFE500
 }
-.para1{
+.title3-para {
 	z-index: 2;
 }
-.para2{
-	z-index: 3;
-}
-.para3{
-	z-index: 4;
+.title4-para {
+	z-index: 1;
 }
