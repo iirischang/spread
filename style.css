@@ -111,6 +111,10 @@ h3 {
 p {
 	grid-area: aside;
 }
+
+.content-grid {
+	padding: 20px;
+}
 /* Print Media Query */
 @media print{
 	:root{
