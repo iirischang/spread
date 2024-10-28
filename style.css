@@ -366,5 +366,8 @@ header {
 	border-top:solid black 4px;
 	z-index: 4;
 }
-
+.content-grid{
+	z-index: 6;
+	background-color: #FFE500;
+}
 
