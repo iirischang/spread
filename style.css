@@ -350,13 +350,13 @@ header {
 	position: sticky;
 	top: 35%;
 	border-top: solid black 4px;
-	z-index: 2;
+	z-index: 6;
 }
 .parallax-2 {
 	background-color: white;
 	position: sticky;
 	top: 45%;
-	z-index: 3;
+	z-index: 7;
 	border-top: solid black 4px;
 }
 .parallax-3{
@@ -364,10 +364,25 @@ header {
 	position: sticky;
 	top: 55%;
 	border-top:solid black 4px;
-	z-index: 4;
+	z-index: 8;
 }
 .content-grid{
 	z-index: 6;
 	background-color: #FFE500;
 }
 
+.title-1{
+	z-index: 5;
+}
+.title-2{
+	z-index: 1;
+}
+.para1{
+	z-index: 2;
+}
+.para2{
+	z-index: 3;
+}
+.para3{
+	z-index: 4;
+}
