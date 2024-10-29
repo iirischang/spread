@@ -341,7 +341,8 @@ header {
     justify-content: center;
     align-items: center;
 	position: sticky;
-	top: 1%;
+	/* top: 1%; */
+	background-color: white;
 	/* z-index: 1; */
 	
 }
@@ -383,6 +384,7 @@ header {
 }
 .title4-para {
 	z-index: 1;
+<<<<<<< HEAD
 	background-color:#F5F5F5;
 	margin-top: -34px;
 	padding: 0;
@@ -426,4 +428,6 @@ header {
 .author{
 	position: fixed;
 	margin-top: -80px;
+=======
+>>>>>>> 810bb85a4f50182b1925f7de2f285d4a3d55f5c6
 }
