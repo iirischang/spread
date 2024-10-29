@@ -83,6 +83,7 @@ p{
 /* sematic DOM */
 body{
 	padding: 5%;
+	background-color: #F5F5F5;
 }
 
 
@@ -346,7 +347,7 @@ header {
     align-items: center;
 	position: sticky;
 	top: 0%;
-	background-color: white;
+	background-color: #F5F5F5;
 	z-index: -1;
 }
 
@@ -380,7 +381,7 @@ header {
 .title1 {
 	position: sticky;
 	z-index: -1;
-	background-color: white;
+	background-color: #F5F5F5;
 }
 .title2-para {
 	z-index: 5;
@@ -444,4 +445,8 @@ header {
 }
 .title4-para p{
 	padding-left: 0;
+}
+.author{
+	position: fixed;
+	margin-top: -80px;
 }
