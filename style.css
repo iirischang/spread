@@ -128,6 +128,14 @@ p {
 	--p-line-height:150%;
 	}
 }
+@media (max-width: 600px) {
+	.title2-para {
+		grid-template-columns: 1fr;
+	}
+	.title2-para h3, .title2-para p {
+		padding: 10px 0;
+	}
+}
 /* desktop color drop-downs*/
 details{
 
@@ -388,11 +396,12 @@ header {
 	top: 10%;
 	background-color: #F5F5F5;
 	padding: 0;
-	display: flex;
 	padding-left: 50px;
 	margin-top: -34px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	display: flex;
+	grid-template-columns: 1fr 1fr;
 }
 .title2-para h3 {
 	padding-top: 20px;
