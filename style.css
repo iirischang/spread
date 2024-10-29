@@ -83,6 +83,7 @@ p{
 /* sematic DOM */
 body{
 	padding: 5%;
+	background-color: #F5F5F5;
 }
 
 
@@ -129,14 +130,13 @@ p {
 }
 
 /* desktop color drop-downs*/
-details{
-
-}
 summary{
 	cursor: pointer;
 	position: relative;
 	padding-right: 2em;
 	list-style: none;
+	font-family: 'Forum';
+	font-size: 30px;
 }
 /* not showing the triangle + */
 summary::-webkit-details-marker{
@@ -146,7 +146,7 @@ summary::-webkit-details-marker{
 /* open using + */
 summary::after{
 	content:"+";
-	font-size: 20px;
+	font-size: 30px;
 	position: absolute;
 	right: 1em;
 }
@@ -336,55 +336,84 @@ details:nth-of-type(8){
 
 /* try parallax */
 header {
+	margin-top: -20vh;
+	margin-bottom: -20vh;
     height: 100vh;
 	overflow: hidden;
     justify-content: center;
     align-items: center;
 	position: sticky;
-	/* top: 1%; */
-	background-color: white;
-	/* z-index: 1; */
-	
+	top: 0%;
+	background-color: #F5F5F5;
+	z-index: -1;
 }
 .title2 {
-	background-color: #FFE500;
+	margin-top: 100px;
+	background-color: #F5F5F5;
 	position: sticky;
 	top: 35%;
-	border-top: solid black 4px;
-	z-index: 5;
-	margin-top: -34px;
+	border-top: solid black 3px;
+	z-index: 6;
+	align-items: center;
+	height: 80px;
 }
 .title3 {
-	background-color: white;
+	background-color: #F5F5F5;
 	position: sticky;
-	top: 45%;
+	top: 20%;
 	z-index: 6;
-	border-top: solid black 4px;
+	border-top: solid black 3px;
+	text-align: center;
 }
 .title4 {
-	background-color: white;
+	background-color: #F5F5F5;
 	position: sticky;
-	top: 55%;
-	border-top:solid black 4px;
+	top: 30%;
+	border-top:solid black 3px;
 	z-index: 7;
+	margin-top: -20px;
 }
 
 .title1 {
 	position: sticky;
-	z-index: 4;
-	background-color: white;
+	z-index: -1;
+	background-color: #F5F5F5;
 }
 
 .title2-para {
-	z-index: 3;
-	background-color: #FFE500
+	z-index: 5;
+	position: sticky;
+	top: 10%;
+	background-color: #F5F5F5;
+	padding: 0;
+	display: flex;
+	padding-left: 50px;
+	margin-top: -34px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.title2-para h3 {
+	padding-top: 20px;
+	font-size: 35px;
+}
+.title2-para p {
+	padding-left: 50px;
+	padding-top: 10px;
 }
 .title3-para {
 	z-index: 2;
+	background-color: #F5F5F5;
+	margin-top: -34px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.title3-para p {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
 }
 .title4-para {
 	z-index: 1;
-<<<<<<< HEAD
 	background-color:#F5F5F5;
 	margin-top: -34px;
 	padding: 0;
@@ -428,6 +457,4 @@ header {
 .author{
 	position: fixed;
 	margin-top: -80px;
-=======
->>>>>>> 810bb85a4f50182b1925f7de2f285d4a3d55f5c6
 }
