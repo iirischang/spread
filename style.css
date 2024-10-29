@@ -348,12 +348,11 @@ header {
 	top: 0%;
 	background-color: white;
 	z-index: -1;
-	/* z-index: 1; */
-	
 }
+
 .title2 {
 	margin-top: 100px;
-	background-color: #FFE500;
+	background-color: #F5F5F5;
 	position: sticky;
 	top: 10%;
 	border-top: solid black 3px;
@@ -362,7 +361,7 @@ header {
 	height: 80px;
 }
 .title3 {
-	background-color: white;
+	background-color: #F5F5F5;
 	position: sticky;
 	top: 20%;
 	z-index: 6;
@@ -370,11 +369,12 @@ header {
 	text-align: center;
 }
 .title4 {
-	background-color: white;
+	background-color: #F5F5F5;
 	position: sticky;
 	top: 30%;
 	border-top:solid black 3px;
 	z-index: 7;
+	margin-top: -20px;
 }
 
 .title1 {
@@ -386,7 +386,7 @@ header {
 	z-index: 5;
 	position: sticky;
 	top: 10%;
-	background-color: #FFE500;
+	background-color: #F5F5F5;
 	padding: 0;
 	display: flex;
 	padding-left: 50px;
@@ -401,17 +401,47 @@ header {
 
 .title2-para p {
 	padding-left: 50px;
+	padding-top: 10px;
 }
 
 .title3-para {
 	z-index: 2;
-	background-color: white;
+	background-color: #F5F5F5;
 	margin-top: -34px;
 	padding-top: 5px;
 	padding-bottom: 20px;
 }
+
+.title3-para p {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+}
+
 .title4-para {
 	z-index: 1;
-	background-color: white;
+	background-color:#F5F5F5;
 	margin-top: -34px;
+	padding: 0;
+	padding-left: 50px;
+	margin-top: -34px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.firstcolumn{
+	display: flex;
+	flex-direction: column;
+}
+.title4-para h3{
+	padding-top: 20px;
+	font-size: 35px;
+	margin-right: 30px;
+}
+.secondcolumn{
+	margin-top: 20px;
+}
+.title4-para p{
+	padding-left: 0;
 }
