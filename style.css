@@ -137,6 +137,8 @@ summary{
 	position: relative;
 	padding-right: 2em;
 	list-style: none;
+	font-family: 'Forum';
+	font-size: 30px;
 }
 /* not showing the triangle + */
 summary::-webkit-details-marker{
@@ -336,51 +338,80 @@ details:nth-of-type(8){
 
 /* try parallax */
 header {
-    height: 100vh;
+	margin-top: -20vh;
+	margin-bottom: -20vh;
+    height: 80vh;
 	overflow: hidden;
     justify-content: center;
     align-items: center;
 	position: sticky;
-	top: 1%;
+	top: 0%;
+	background-color: white;
+	z-index: -1;
 	/* z-index: 1; */
 	
 }
 .title2 {
+	margin-top: 100px;
 	background-color: #FFE500;
 	position: sticky;
-	top: 35%;
-	border-top: solid black 4px;
-	z-index: 5;
+	top: 10%;
+	border-top: solid black 3px;
+	z-index: 6;
+	align-items: center;
+	height: 80px;
 }
 .title3 {
 	background-color: white;
 	position: sticky;
-	top: 45%;
+	top: 20%;
 	z-index: 6;
-	border-top: solid black 4px;
+	border-top: solid black 3px;
+	text-align: center;
 }
 .title4 {
 	background-color: white;
 	position: sticky;
-	top: 55%;
-	border-top:solid black 4px;
+	top: 30%;
+	border-top:solid black 3px;
 	z-index: 7;
 }
 
 .title1 {
 	position: sticky;
-	z-index: 4;
+	z-index: -1;
 	background-color: white;
 }
-
-
 .title2-para {
-	z-index: 3;
-	background-color: #FFE500
+	z-index: 5;
+	position: sticky;
+	top: 10%;
+	background-color: #FFE500;
+	padding: 0;
+	display: flex;
+	padding-left: 50px;
+	margin-top: -34px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+.title2-para h3 {
+	padding-top: 20px;
+	font-size: 35px;
+}
+
+.title2-para p {
+	padding-left: 50px;
+}
+
 .title3-para {
 	z-index: 2;
+	background-color: white;
+	margin-top: -34px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 .title4-para {
 	z-index: 1;
+	background-color: white;
+	margin-top: -34px;
 }
