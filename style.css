@@ -351,6 +351,7 @@ header {
 	top: 35%;
 	border-top: solid black 4px;
 	z-index: 5;
+	margin-top: -34px;
 }
 .title3 {
 	background-color: white;
@@ -382,8 +383,6 @@ header {
 }
 .title4-para {
 	z-index: 1;
-<<<<<<< HEAD
-=======
 	background-color:#F5F5F5;
 	margin-top: -34px;
 	padding: 0;
@@ -427,5 +426,4 @@ header {
 .author{
 	position: fixed;
 	margin-top: -80px;
->>>>>>> cc2ba6751a6914f48d582031fb275ec8e174a286
 }
