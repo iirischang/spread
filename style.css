@@ -338,7 +338,7 @@ details:nth-of-type(8){
 header {
 	margin-top: -20vh;
 	margin-bottom: -20vh;
-    height: 100vh;
+    height: 80vh;
 	overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -351,7 +351,7 @@ header {
 	margin-top: 100px;
 	background-color: #F5F5F5;
 	position: sticky;
-	top: 35%;
+	top: 10%;
 	border-top: solid black 3px;
 	z-index: 6;
 	align-items: center;
