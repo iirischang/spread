@@ -351,7 +351,7 @@ header {
 	margin-top: 100px;
 	background-color: #F5F5F5;
 	position: sticky;
-	top: 10%;
+	top: 0px;
 	border-top: solid black 3px;
 	z-index: 6;
 	align-items: center;
@@ -360,7 +360,7 @@ header {
 .title3 {
 	background-color: #F5F5F5;
 	position: sticky;
-	top: 20%;
+	top: 75px;
 	z-index: 6;
 	border-top: solid black 3px;
 	text-align: center;
@@ -368,7 +368,7 @@ header {
 .title4 {
 	background-color: #F5F5F5;
 	position: sticky;
-	top: 30%;
+	top: 150px;
 	border-top:solid black 3px;
 	z-index: 7;
 	margin-top: -20px;
@@ -446,13 +446,13 @@ header {
 	z-index: 8;
 	border-top: solid black 3px;
 	text-align: center;
-	top: 40%;
+	top: 225px;
 	margin-top: -34px;
 }
 .title5-para {
 	z-index: 2;
 	background-color: #709332;
-	padding-bottom: 20px;	
+	padding-bottom: 20px;
 }
 .author{
 	position: fixed;
