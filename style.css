@@ -412,6 +412,7 @@ header {
 	z-index: 6;
 	border-top: solid black 3px;
 	text-align: center;
+	height: 80px;;
 }
 .title3-para {
 	background-color: #F5F5F5;
@@ -431,6 +432,7 @@ header {
 	top: 107px;
 	border-top:solid black 3px;
 	z-index: 7;
+	height: 80px;
 }
 .title4-para {
 	z-index: 1;
