@@ -15,7 +15,8 @@
 	--h1-font-weight:600;
 	--h1-line-height:100%;
 	--h1-text-align:center;
-	--h1-letter-spacing: 20px;
+	--h1-padding-right:100px;
+	--h1-padding-left:100px;
 
 	/* H2 styles*/
 	--h2-font-family:"Anton";
@@ -54,6 +55,8 @@ h1{
 	line-height:var(--h1-line-height);
 	text-transform:uppercase;
 	text-align: var(--h1-text-align);
+	padding-right: var(--h1-padding-right);
+	padding-left:var(--h1-padding-left)
 }
 
 h2{
