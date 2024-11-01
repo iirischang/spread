@@ -4,7 +4,7 @@
 	--heading-font font-family: "Anton";
 	--main-background-width:100%;
 	--main-border:2px;
-	--background:#F6F6F6;
+	--background: #ffffff;
 	--main-margin-bottom:100px;
 	--main-padding:2px 8px 2px;
     --main-margin:30px 32px;
@@ -19,7 +19,7 @@
 
 	/* H2 styles*/
 	--h2-font-family:"Anton";
-	--h2-font-size:40px;
+	--h2-font-size:65px;
 	--h2-font-weight:600;
 	--h2-line-height:100%;
 	--h2-letter-spacing:2px;
@@ -34,7 +34,7 @@
 
 	/* H4 styles */
 	--h4-font-family: "Anton";
-	--h4-font-size: 30px;
+	--h4-font-size: 25px;
 	--h4-font-weight:600;
 	--h4-text-align:center;
 
@@ -104,6 +104,18 @@ body{
 	padding-right: 10px;
 }
 
+.author {
+    background-color: green;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    left: 50%;
+    transform: translateX(-50%) rotate(-15deg);
+    z-index: 15;
+}
+
+
 
 /* Desktop Media Query */
 @media(min-width:1280px){
@@ -115,26 +127,38 @@ body{
 }
 }
 @media(min-width:1280px){
-	.title2-para,
-	.title4-para{
+	.title2-para {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: 1fr;
+		grid-template-areas:
+			"empty header empty"
+			"empty  header aside"
+			"empty empty aside"
+			"empty empty color";
+	}
+	h3 {
+		grid area: header;
+	}
+	.justpara {
+		grid-area: aside;
 	}
 }
-@media(min-width:1280px){
-	.title2-para h3{
-		margin-right: 100px;
+/* @media(min-width:1280px){
+	.title2-para h3 {
+		padding: 100px;
 	}
 	}
 @media(min-width:1280px){
-	.title4-para {
+	.title4-para p {
+		padding-right: 100px;
 }
-}
-@media(min-width:1280px){
+} */
+/* @media(min-width:1280px){
 	h1{
 		width: 70%;
 	}
-}
+} */
 @media(min-width:1280px){
 	details{
 		margin: auto;
@@ -149,19 +173,20 @@ body{
 }
 
 
-h3 {
+/* h3 {
 	grid-area: title;
-	padding-right: 1em;
+	padding: 50px;
+	background-color: white;
 }
 
 p {
 	grid-area: aside;
-	padding-right: 2em;
+	padding: 100px;
 }
 
 .content-grid {
 	padding: 20px;
-}
+} */
 /* Print Media Query */
 @media print{
 	:root{
@@ -386,17 +411,17 @@ header {
     align-items: center;
 	position: sticky;
 	top: 0%;
-	background-color: #F5F5F5;
+	background-color: white;
 	z-index: -1;
 }
 .title1 {
 	position: sticky;
 	z-index: -1;
-	background-color: #F5F5F5;
+	background-color: white;
 }
 .title2 {
 	margin-top: 100px;
-	background-color: #F5F5F5;
+	background-color: white;
 	position: sticky;
 	top: 0px;
 	border-top: solid black 3px;
@@ -407,7 +432,7 @@ header {
 .title2-para {
 	z-index: 5;
 	top: 10%;
-	background-color: #F5F5F5;
+	background-color: white;
 	padding: 0;
 	margin-top: -34px;
 	padding-top: 20px;
@@ -421,7 +446,7 @@ header {
 	padding-top: 10px;
 }
 .title3 {
-	background-color: #F5F5F5;
+	background-color: white;
 	position: sticky;
 	top: 55px;
 	padding: 0;
@@ -431,7 +456,7 @@ header {
 	height: 80px;;
 }
 .title3-para {
-	background-color: #F5F5F5;
+	background-color: white;
 	margin-top: -34px;
 	padding-top: 5px;
 	padding-bottom: 50px;
@@ -443,7 +468,7 @@ header {
 	padding-bottom: 30px;
 }
 .title4 {
-	background-color: #F5F5F5;
+	background-color: white;
 	position: sticky;
 	top: 107px;
 	border-top:solid black 3px;
@@ -452,7 +477,7 @@ header {
 }
 .title4-para {
 	z-index: 1;
-	background-color:#F5F5F5;
+	background-color:white;
 	margin-top: -34px;
 	padding: 0;
 	padding-left: 50px;
@@ -476,7 +501,7 @@ header {
 	padding-left: 0;
 }
 .title5{
-	background-color: #F5F5F5;
+	background-color: white;
 	position: sticky;
 	z-index: 8;
 	border-top: solid black 3px;
@@ -489,13 +514,7 @@ header {
 	background-color: #709332;
 	padding-bottom: 20px;
 }
-.author{
-	position: fixed;
-	background-color: #95E744;
-	z-index: 12;
-	margin-top: -150px;
-	border-radius: 2000px;
-}
+
 
 /* Footer Styling */
 table {
