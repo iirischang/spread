@@ -132,10 +132,10 @@ body{
 		grid-template-columns: repeat(8, 1fr);
 		grid-template-rows: 1fr;
 		grid-template-areas:
-			"empty header empty"
-			"empty  header aside"
-			"empty empty aside"
-			"empty empty color";
+			"empty header header header empty empty empty"
+			"empty header header header aside aside aside"
+			"empty empty empty empty aside aside aside"
+			"empty empty empty empty color color color";
 	}
 	h3 {
 		grid area: header;
