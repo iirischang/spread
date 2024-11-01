@@ -656,13 +656,13 @@ a{
 	.left{
 		font-family: "DM SANS";
 		text-align: left;
-		font-size: 30px;
+		font-size: 20px !important;
 		padding-left: 30px;
-		padding-right: 650px;
+		padding-right: 800px;
 	}
 	.backtotop{
 		font-family: "Anton";
-		font-size: 30px;
+		font-size: 30px !important;
 		text-align: right;
 		padding-right: 20px;
 		font-weight: 800;
