@@ -8,4 +8,4 @@ Together, they focused on exploring the relationship between typography and inte
 
 Thank you!
 
-Explore the full article here.
+[Explore the full article here.](https://readings.design/PDF/Color_Politics_of_Design.pdf)
