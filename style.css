@@ -135,10 +135,11 @@ body{
 }
 
 @media(max-width:375px){
-	:root{
-		--h1-font-size:20px;	
+	.h1{
+		font-size: 20px;
+	}
 }
-}
+
 
 h3 {
 	grid-area: title;
