@@ -222,7 +222,7 @@ mark {
 	padding-left: 25px;
 	transform: rotate(15deg) translateY(40px) translateX(25px);
 }
-cite {
+.cite1 {
     display: block;
     max-width: 100%;
     overflow-wrap: break-word;
@@ -570,6 +570,8 @@ td{
 }
 a{
 	color: #000;
+	font-size: 18px;
+	text-decoration: underline;
 }
 
 /* all media queries */
@@ -936,6 +938,12 @@ a{
 		padding: 20px;
 	}
 
+}
+
+sup {
+	vertical-align: super;
+	color: blue;
+	font-size: 14px;
 }
 
 
