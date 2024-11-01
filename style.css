@@ -832,10 +832,18 @@ a{
 	}
 }
 @media print{
-	details{
+	.b{
 		color: #000;
 	}
-
+	.bp{
+		color: #000;
+	}
+	header {
+        display: block !important; /* 強制顯示 header */
+    }
+	.square{
+		display: none;
+	}
 }
 
 @media(min-width:1280px){
