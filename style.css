@@ -457,8 +457,8 @@ table {
 @media(min-width:1280px){
     h1{
         width: 70%;
-		font-size: 150px;
-		line-height: 180px;
+		font-size: 200px;
+		line-height: 200px;
     }
     details{
         margin: auto;
