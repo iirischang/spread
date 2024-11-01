@@ -240,10 +240,6 @@ details:nth-of-type(8){
 } */
 
 /* circle animation styling */
-
-
-
-/* activate after fixing other elements */
 .circle {
     position: absolute;
     width: 25px;
