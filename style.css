@@ -111,6 +111,7 @@ body{
 	}
 @media(min-width:1280px){
 	.title4-para {
+
 }
 }
 
@@ -395,6 +396,7 @@ header {
 	background-color: #F5F5F5;
 	position: sticky;
 	top: 75px;
+	padding: 0;
 	z-index: 6;
 	border-top: solid black 3px;
 	text-align: center;
@@ -429,15 +431,12 @@ header {
 	padding-top: 20px;
 	position: relative;
 	margin-bottom: 20px;
+	padding-bottom: 50px;
 }
 .title4-para h3{
 	padding-top: 20px;
 	font-size: 35px;
 	margin-right: 30px;
-}
-.firstcolumn{
-	display: flex;
-	flex-direction: column;
 }
 .title4-para h3{
 	padding-top: 20px;
@@ -460,9 +459,6 @@ header {
 	z-index: 2;
 	background-color: #709332;
 	padding-bottom: 20px;
-}
-.secondcolumn{
-	margin-top: 20px;
 }
 .author{
 	position: fixed;
