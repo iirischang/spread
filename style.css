@@ -98,7 +98,10 @@ h2{
 	font-size: 25px;
 	line-height: 30px;
 }
-.h2-2,.h2-3{
+.h2-2{
+	padding: 0;
+}
+.h2-3{
 	padding: 0;
 	padding-top: 40px;
 }
@@ -541,6 +544,8 @@ header {
 
 /* Footer Styling */
 table {
+	background-color: #95E744;
+	padding-bottom: 100px;
     width: 100%;
 	height: 80px;
 	border-collapse: collapse;
@@ -554,6 +559,7 @@ td{
 	font-size: 15px;
 }
 .left{
+	font-family: "DM SANS";
 	text-align: left;
 	font-size: 12px;
 }
@@ -562,7 +568,7 @@ td{
 	font-size: 18px;
 	text-align: right;
 	white-space: nowrap;
-	padding-right: 20px;
+	margin-right: 100px;
 	font-weight: 800;
 }
 a{
@@ -599,6 +605,7 @@ a{
 		padding-left: 50px ;
 	}
 	.with{
+		padding: 0;
 		margin-left: 60px;
 	}
 	p {
