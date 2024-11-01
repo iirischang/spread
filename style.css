@@ -157,6 +157,7 @@ cite{
 
 @media(min-width:769px){
 	article.author p {
+		font-family: "DM SANS";
 		border: 2px solid black;
 		width: 280px ;
 		height: 130px ;
@@ -746,6 +747,7 @@ mark {
 }
 
 .author p {
+	font-family: "DM Sans";
     background-color: #95E744;
     border: 1px solid black;
     border-radius: 50%;
