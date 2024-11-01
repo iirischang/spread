@@ -6,6 +6,8 @@
 	--main-border:2px;
 	--background:#F6F6F6;
 	--main-margin-bottom:100px;
+	--main-padding:2px 8px 2px;
+    --main-margin:30px 32px;
 
 	/* H1 styles*/
 	--h1-font-family: "Anton";
