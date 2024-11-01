@@ -841,8 +841,11 @@ a{
 		color: #000;
 	}
 	header {
-        display: block !important; /* 強制顯示 header */
+        display: block !important;
     }
+	.title1{
+		display: block !important;
+	}
 	.square{
 		display: none;
 	}
