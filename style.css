@@ -119,15 +119,24 @@ cite{
         margin: auto;
     }
 	h2 {
-		font-size: 50px;
-		line-height: 60px;
+		font-size: 50px !important;
+		line-height: 60px !important;
 	}
 	.h2-2{
-		padding-right: 200px;
+		padding-right: 150px;
+		font-size: 50px !important;
+		line-height: 60px !important;
+		padding-left: 50px ;
 	}
 	.h2-3{
 		padding-top: 50px;
 		padding-right: 200px;
+		font-size: 50px !important;
+		line-height: 60px !important;
+		padding-left: 50px ;
+	}
+	.with{
+		margin-left: 60px;
 	}
 	p {
 		font-size: 18px;
@@ -596,7 +605,7 @@ header {
 	padding-left: 0;
 }
 .title5{
-	background-color: #f5f5f5;
+	background-color: #DCDCDC;
 	position: sticky;
 	z-index: 8;
 	border-top: solid black 3px;
@@ -606,7 +615,7 @@ header {
 }
 .title5-para {
 	z-index: 2;
-	background-color: #f5f5f5;
+	background-color: #DCDCDC;
 	padding-bottom: 20px;
 	font-family: "DM SANS";
 }
