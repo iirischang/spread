@@ -90,7 +90,7 @@ p{
 
 /* sematic DOM */
 body{
-	background-color: #F5F5F5;
+	background-color: white;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -146,6 +146,43 @@ body{
 	}
 }
 
+/* tab Media Query */
+@media(min-width:900px){
+	:root{
+		--h1-font-size:150px;
+		--h3-font-size:40px;
+		--p-text-font-size:18px;
+		--p-line-height:150%;
+	}
+	}
+	@media(min-width:900px){
+		.title2-para,
+		.title4-para{
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+	@media(min-width:900px){
+		.title2-para h3{
+			margin-right: 50px;
+		}
+		}
+	@media(min-width:900px){
+		.title4-para {
+	}
+	}
+	@media(min-width:1280px){
+		h1{
+			width: 70%;
+		}
+	}
+	@media(min-width:1280px){
+		details{
+			margin: auto;
+			width: 70%;
+		}
+	}
+
 @media(max-width:375px){
 	:root{
 		--h1-font-size:80px;
@@ -178,8 +215,32 @@ body{
 		--p-line-height:150%;
 	}
 	body {
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	h2 {
+		text-align: left;
+	}
+}
+
+@media(max-width:499px){
+	:root{
+		--h1-font-size:80px;
+		--h2-font-size:50px;
+		--h3-font-size:30px;
+		--h4-font-size:20px;
+		--h5-font-size:15px;
+		--p-text-font-size:18px;
+		--p-line-height:150%;
+	}
+	body {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	h2 {
+		text-align: left;
 	}
 }
 
@@ -588,6 +649,51 @@ table {
 
 }
 
+
+@media(min-width:900px){
+	.title2-para {
+		display: grid;
+		grid-template-columns: repeat(2fr, 1fr);
+		grid-template-areas:
+		"empty header header header empty empty empty empty"
+		"empty header header header aside aside aside empty"
+		"empty empty empty empty aside aside aside empty"
+		"empty empty empty empty aside aside aside empty"
+		"empty empty empty empty colour colour colour empty"
+		"empty empty centre centre centre empty empty"
+	}
+	.title2-para h2 {
+		grid-area: header;
+		width: 65%;
+		text-align: left;
+		margin-left: 10%;
+	}
+	.justpara p {
+		grid-area: aside;
+	}
+	.centerpara p {
+		grid-area: centre;
+
+	}
+	h3 {
+		grid-area: title;
+		padding: 50px;
+		background-color: white;
+	}
+	
+	p {
+		grid-area: aside;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 50px;
+	}
+	
+	.content-grid {
+		padding: 20px;
+	}
+
+}
+
 em {
 	font-weight: 700;
 }
@@ -624,4 +730,8 @@ mark {
 	border-color: black;
 	text-align: left;
 	margin: auto;
+	width: 20%;
+	text-align: center;
+	transform: rotate(-15deg);
+    transform: translateX(-50%) rotate(-15deg);
 }
