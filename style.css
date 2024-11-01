@@ -496,3 +496,24 @@ header {
 	margin-top: -150px;
 	border-radius: 2000px;
 }
+
+/* Footer Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table {
+    font-size: 15px;
+    border-top: 1px dotted #333;
+    border-bottom: 1px dotted #333;
+}
+
+.table td:first-child {
+    text-align: left;
+}
+
+.table td:last-child {
+    text-align: right;
+    padding: 10px 0;
+}
