@@ -181,6 +181,10 @@ details:nth-of-type(8){
 	padding: 2em;
 }
 
+em {
+	font-weight: 700;
+}
+
 .square {
     width: 40px;
     height: 30px;
@@ -231,6 +235,13 @@ cite {
 }
 .backtotop{
 	position: sticky;
+}
+
+.square {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	padding-left: 20px;
 }
 /* mobile color drop-downs*/
 /* @media (min-width:390px){
@@ -788,7 +799,4 @@ table {
 
 }
 
-em {
-	font-weight: 700;
-}
 
