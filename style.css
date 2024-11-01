@@ -185,14 +185,6 @@ em {
 	font-weight: 700;
 }
 
-.square {
-    width: 40px;
-    height: 30px;
-    border-radius: 5px;
-	border-color: black;
-	padding: 20px;
-}
-
 .highlight {
 	background-color: blue;
 	border-color: black;
@@ -237,12 +229,62 @@ cite {
 	position: sticky;
 }
 
+/* Square styling */
 .square {
+    width: 40px;
+    height: 30px;
+
+	padding: 20px;
 	display: flex;
 	flex-direction: row;
 	gap: 25px;
 	padding-left: 20px;
 }
+
+.square .yellow {
+		background-color: #FFE500;
+		border-radius: 5px;
+		border-color: black;
+		border-style: solid;
+}
+
+.square .orange {
+	background-color: #FFA500;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+.square .red { 
+	background-color:#E12121;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+.square .green {
+	background-color: #95E744;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+.square .blue {
+	background-color: #469CFF;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+.square .purple {
+	background-color: #C070FF;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+
+
 /* mobile color drop-downs*/
 /* @media (min-width:390px){
 	details{
