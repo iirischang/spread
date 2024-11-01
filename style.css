@@ -769,7 +769,7 @@ a{
 	}
 }
 /* large mobile */
-@media (min-width: 420px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     h2 {
         padding: 20px;
     }
