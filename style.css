@@ -11,7 +11,7 @@
 
 	/* H1 styles*/
 	--h1-font-family: "Anton";
-	--h1-font-size:100px;
+	--h1-font-size:90px;
 	--h1-font-weight:600;
 	--h1-line-height:100%;
 	--h1-text-align:center;
@@ -145,6 +145,19 @@ body{
 		width: 70%;
 	}
 }
+@media(min-width:769px){
+	.author p {
+		margin: auto;
+		width: 300px;
+		height: 150px;
+		display: flex;
+		line-height: 30px;
+		font-size: 20px;
+		justify-content: center;
+		padding-top: 40px;
+		padding-left: 50px;
+	}
+}
 
 /* tab Media Query */
 @media(min-width:900px){
@@ -243,7 +256,11 @@ body{
 		text-align: left;
 	}
 }
-
+@media(max-width:768px){
+	h1 {
+		font-size: 130px;
+	}
+}
 
 
 /* Print Media Query */
@@ -724,17 +741,15 @@ mark {
     background-color: #95E744;
     border: 1px solid black;
     border-radius: 50%;
-}
-
-	background-color: green;
-	border-radius: 50%;
-	border-style: solid;
 	border-color: black;
 	margin: auto;
-	width: 300px;
-	height: 150px;
+	width: 200px;
+	height: 100px;
 	display: block;
-	line-height: 30px;
-	font-size: 20px;
-	justify-content: center ;
+	line-height: 20px;
+	font-size: 15px;
+	justify-content: center;
+	padding-top: 30px;
+	padding-left: 32px;
+	transform: rotate(15deg) translateY(45px);
 }
