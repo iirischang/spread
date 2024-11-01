@@ -151,6 +151,7 @@ cite{
 	}
 	summary{
 		font-size: 30px;
+		font-family: "DM Sans";
 	}
 }
 
@@ -536,6 +537,9 @@ header {
 	padding-top: 20px;
 	margin-bottom: 30px;
 }
+.title2-para p{
+	font-family: "DM Sans";
+}
 .title3 {
 	background-color: #f5f5f5;
 	position: sticky;
@@ -552,6 +556,7 @@ header {
 	padding-bottom: 50px;
 }
 .title3-para p {
+	font-family: "DM Sans";
 	padding-left: 20px;
 	margin: auto;
 	padding-top: 50px;
@@ -586,6 +591,7 @@ header {
 	margin-right: 30px;
 }
 .title4-para p{
+	font-family: "DM Sans";
 	padding-left: 0;
 }
 .title5{
