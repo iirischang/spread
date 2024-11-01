@@ -361,7 +361,7 @@ details:nth-of-type(8){
     }
 }
 
-/* try parallax */
+/* all z-index */
 header {
 	margin-top: -20vh;
 	margin-bottom: -20vh;
