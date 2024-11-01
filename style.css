@@ -97,15 +97,23 @@ body{
 	--p-line-height:150%;
 }
 }
-@media (min-width: 500px){
-	.content-grid {
-	  display: grid;
-	  grid-template-columns: 1fr, 2fr;
-	  padding-left: 2em;
-	  grid-template-areas:
-		  "title  aside";
+@media(min-width:1280px){
+	.title2-para,
+	.title4-para{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
+@media(min-width:1280px){
+	.title2-para h3{
+		margin-right: 100px;
+	}
+	}
+@media(min-width:1280px){
+	.title4-para {
+}
+}
+
 
 h3 {
 	grid-area: title;
@@ -372,8 +380,6 @@ header {
 	top: 10%;
 	background-color: #F5F5F5;
 	padding: 0;
-	display: flex;
-	padding-left: 50px;
 	margin-top: -34px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -383,7 +389,6 @@ header {
 	font-size: 35px;
 }
 .title2-para p {
-	padding-left: 50px;
 	padding-top: 10px;
 }
 .title3 {
@@ -422,8 +427,6 @@ header {
 	padding-left: 50px;
 	margin-top: -34px;
 	padding-top: 20px;
-	display: flex;
-	flex-direction: row;
 	position: relative;
 	margin-bottom: 20px;
 }
