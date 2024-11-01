@@ -141,6 +141,11 @@ body{
 		width: 70%;
 	}
 }
+@media(min-width:1280px){
+	summary p{
+		
+		width: 70%;
+	}
 
 @media(max-width:375px){
 	.h1{
