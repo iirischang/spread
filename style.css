@@ -831,6 +831,12 @@ a{
 	--p-line-height:150%;
 	}
 }
+@media print{
+	details{
+		color: #000;
+	}
+
+}
 
 @media(min-width:1280px){
 	.title2-para {
