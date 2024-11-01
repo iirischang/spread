@@ -180,6 +180,58 @@ details:nth-of-type(8){
 	color:black;
 	padding: 2em;
 }
+
+.square {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+	border-color: black;
+	padding: 20px;
+}
+
+.highlight {
+	background-color: blue;
+	border-color: black;
+	border-radius: 50px;
+	padding: 2px 10px;
+	color: #f5f5f5;
+}
+
+mark {
+	background-color: red;
+	border-color: black;
+	border-style: solid;
+	border-radius: 50px;
+	padding: 2px 10px;
+	color: #f5f5f5;
+}
+
+.author p {
+	font-family: "DM Sans";
+    background-color: #95E744;
+    border: 1px solid black;
+    border-radius: 50%;
+	border-color: black;
+	margin: auto;
+	width: 150px;
+	height: 70px;
+	display: block;
+	line-height: 15px;
+	font-size: 10px;
+	justify-content: center;
+	padding-top: 20px;
+	padding-left: 25px;
+	transform: rotate(15deg) translateY(40px) translateX(25px);
+}
+cite {
+    display: block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+.backtotop{
+	position: sticky;
+}
 /* mobile color drop-downs*/
 /* @media (min-width:390px){
 	details{
@@ -460,6 +512,7 @@ table {
 		font-size: 200px;
 		line-height: 200px;
     }
+
     details{
         margin: auto;
     }
@@ -739,54 +792,3 @@ em {
 	font-weight: 700;
 }
 
-.square {
-    width: 40px;
-    height: 30px;
-    border-radius: 5px;
-	border-color: black;
-	padding: 20px;
-}
-
-.highlight {
-	background-color: blue;
-	border-color: black;
-	border-radius: 50px;
-	padding: 2px 10px;
-	color: #f5f5f5;
-}
-
-mark {
-	background-color: red;
-	border-color: black;
-	border-style: solid;
-	border-radius: 50px;
-	padding: 2px 10px;
-	color: #f5f5f5;
-}
-
-.author p {
-	font-family: "DM Sans";
-    background-color: #95E744;
-    border: 1px solid black;
-    border-radius: 50%;
-	border-color: black;
-	margin: auto;
-	width: 150px;
-	height: 70px;
-	display: block;
-	line-height: 15px;
-	font-size: 10px;
-	justify-content: center;
-	padding-top: 20px;
-	padding-left: 25px;
-	transform: rotate(15deg) translateY(40px) translateX(25px);
-}
-cite {
-    display: block;
-    max-width: 100%;
-    overflow-wrap: break-word;
-    margin-bottom: 10px;
-}
-.backtotop{
-	position: sticky;
-}
