@@ -646,7 +646,7 @@ a{
 	}
 	table {
 		width: 100%;
-		height: auto;
+		height: 170px;
 		background-color: #95E744;
 		display: flex;
 		justify-content: space-between;
@@ -660,6 +660,7 @@ a{
 		font-family: "DM SANS";
 		text-align: left;
 		font-size: 20px;
+		padding-left: 30px;
 		padding-right: 650px;
 	}
 	.backtotop{
