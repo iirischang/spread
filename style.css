@@ -106,7 +106,10 @@ cite{
 	font-size: 15px;
 	padding-left: 20px;
 }
-
+::selection {
+    background-color: #95E744; 
+    color: #000;
+}
 
 /* Desktop Media Query */
 @media(min-width:1280px){
