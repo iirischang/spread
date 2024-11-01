@@ -19,7 +19,7 @@
 
 	/* H2 styles*/
 	--h2-font-family:"Anton";
-	--h2-font-size:65px;
+	--h2-font-size:40px;
 	--h2-font-weight:600;
 	--h2-line-height:100%;
 	--h2-letter-spacing:2px;
@@ -34,7 +34,7 @@
 
 	/* H4 styles */
 	--h4-font-family: "Anton";
-	--h4-font-size: 25px;
+	--h4-font-size: 30px;
 	--h4-font-weight:600;
 	--h4-text-align:center;
 
@@ -104,16 +104,17 @@ body{
 	padding-right: 10px;
 }
 
-.author {
+/* .author {
     background-color: green;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 50%;
     transform: rotate(-15deg);
+
     left: 50%;
     transform: translateX(-50%) rotate(-15deg);
     z-index: 15;
-}
+} */
 
 
 
@@ -127,38 +128,26 @@ body{
 }
 }
 @media(min-width:1280px){
-	.title2-para {
+	.title2-para,
+	.title4-para{
 		display: grid;
-		grid-template-columns: repeat(8, 1fr);
-		grid-template-rows: 1fr;
-		grid-template-areas:
-			"empty header header header empty empty empty"
-			"empty header header header aside aside aside"
-			"empty empty empty empty aside aside aside"
-			"empty empty empty empty color color color";
-	}
-	.title2-para h3 {
-		grid area: header;
-	}
-	.justpara p {
-		grid-area: aside;
+		grid-template-columns: 1fr 1fr;
 	}
 }
-/* @media(min-width:1280px){
-	.title2-para h3 {
-		padding: 100px;
+@media(min-width:1280px){
+	.title2-para h3{
+		margin-right: 100px;
 	}
 	}
 @media(min-width:1280px){
-	.title4-para p {
-		padding-right: 100px;
+	.title4-para {
 }
-} */
-/* @media(min-width:1280px){
+}
+@media(min-width:1280px){
 	h1{
 		width: 70%;
 	}
-} */
+}
 @media(min-width:1280px){
 	details{
 		margin: auto;
@@ -173,7 +162,7 @@ body{
 }
 
 
-/* h3 {
+h3 {
 	grid-area: title;
 	padding: 50px;
 	background-color: white;
@@ -186,7 +175,7 @@ p {
 
 .content-grid {
 	padding: 20px;
-} */
+}
 /* Print Media Query */
 @media print{
 	:root{
