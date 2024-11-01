@@ -4,8 +4,6 @@
 	--heading-font font-family: "Anton";
 	--main-background-width:100%;
 	--main-border:2px;
-	--main-padding:2px 8px 2px;
-	--main-margin:30px 32px;
 	--background:#F6F6F6;
 	--main-margin-bottom:100px;
 
@@ -99,7 +97,6 @@ p{
 
 /* sematic DOM */
 body{
-	padding: 5%;
 	background-color: #F5F5F5;
 }
 
@@ -135,7 +132,6 @@ body{
 	}
 }
 	
-}
 
 
 h3 {
