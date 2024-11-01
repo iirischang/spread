@@ -801,6 +801,29 @@ a{
 	}
 }
 
+@media(min-width:420px){
+	h2{
+		padding: 20px;
+	}
+	p{
+		padding: 20px;
+	}
+	.square {
+		padding-top: 10px;
+		width: 50px;
+		height: 50px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		flex-direction: row;
+		gap: 5px;
+		padding-left: 20px;
+		transform: translateX(0px)translateY(-5px) ;
+		text-align: center;
+	}
+	.left{
+		font-size: 13px;
+	}
+}
 
 /* Print Media Query */
 @media print{
