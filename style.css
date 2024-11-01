@@ -146,16 +146,15 @@ body{
 	}
 }
 @media(min-width:769px){
-	.author p {
-		margin: auto;
-		width: 300px;
-		height: 150px;
-		display: flex;
-		line-height: 30px;
-		font-size: 20px;
+	article.author p {
+		width: 270px ;
+		height: 130px ;
+		display: block;
+		line-height: 30px ;
+		font-size: 18px ;
 		justify-content: center;
-		padding-top: 40px;
-		padding-left: 50px;
+		padding-top: 35px ;
+		padding-left: 45px ;
 	}
 }
 
