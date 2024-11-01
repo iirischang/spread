@@ -137,10 +137,10 @@ body{
 			"empty empty empty empty aside aside aside"
 			"empty empty empty empty color color color";
 	}
-	h3 {
+	.title2-para h3 {
 		grid area: header;
 	}
-	.justpara {
+	.justpara p {
 		grid-area: aside;
 	}
 }
